@@ -1,9 +1,13 @@
 # Info
 On Linux the filesizes are about:
+
 BL2 (36.4MB)
+
 TPS (35.8MB)
+
 and should be located somewhere here:
-/usr/local/games/Steam/SteamApps/common/<YOUR GAME>
+
+~/.steam/steam/steamapps/common/
 
 For Mac:
 BL2 (66.7MB)
