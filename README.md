@@ -13,6 +13,14 @@ For Mac:
 BL2 (66.7MB)
 TPS (60.5MB)
 
+You'll most likely have moved a Patchfile into the "Binaries"-folder before, if you're here.
+From there, you go up two folders. You should now see a folder called "MacOS". 
+You be at something like:
+
+Borderlands2.app\Contents\MacOS
+
+Inside of that, there should be the file that you need to edit!
+
 
 # BL2
 ## SanityCheck Bypass
