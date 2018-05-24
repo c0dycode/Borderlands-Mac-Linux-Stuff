@@ -225,15 +225,22 @@ def get_steam_library_folders():
 
     base_path = get_steam_base_path()
     folders = []
+    steamapps_dirs = ['steamapps', 'SteamApps']
 
     # Our base install is almost certainly a library folder itself.
-    base_library = os.path.join(base_path, 'steamapps')
-    if os.path.exists(base_library):
-        folders.append(base_library)
+    for steamapps in steamapps_dirs:
+        base_library = os.path.join(base_path, steamapps)
+        if os.path.exists(base_library):
+            folders.append(base_library)
+            break
 
-    library_index = os.path.join(base_path,
-            'steamapps',
-            'libraryfolders.vdf')
+    for steamapps in steamapps_dirs:
+        library_index = os.path.join(base_path,
+                steamapps,
+                'libraryfolders.vdf')
+        if os.path.exists(library_index):
+            break
+
     if os.path.exists(library_index):
         with open(library_index) as df:
             for line in df.readlines():
@@ -242,9 +249,11 @@ def get_steam_library_folders():
                     parts = [p.strip('"') for p in parts]
                     try:
                         library_idx = int(parts[0])
-                        library_dir = os.path.join(parts[1], 'steamapps')
-                        if os.path.exists(library_dir):
-                            folders.append(library_dir)
+                        for steamapps in steamapps_dirs:
+                            library_dir = os.path.join(parts[1], steamapps)
+                            if os.path.exists(library_dir):
+                                folders.append(library_dir)
+                                break
                     except ValueError as e:
                         pass
 
