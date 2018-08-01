@@ -53,6 +53,28 @@ E8 58 A1 28 00
 to
 90 90 90 90 90
 ```
+## Currencies (Not tested/confirmed yet)
+For the values you need to change it to, refer to this:
+https://github.com/c0dycode/BL2ModStuff/tree/master/Hexediting#increasing-max-eridium
+
+Address is the address in the file you have to patch. Every Hexeditor should have a "goto"-feature these days.
+Double check if your values match up with the default ones, listed below!
+
+- Cash:
+Address: 01A1D90C
+Default: FF E0 F5 05
+
+- Eridium:
+Address: 01A1D910
+Default: F4 01 00 00
+
+- Seraph:
+Address: 01A1D914
+Default: E7 03 00 00
+
+- Torgue:
+Address: 01A1D91C
+Default: E7 03 00 00
 
 # TPS
 ## SanityCheck-Bypass
