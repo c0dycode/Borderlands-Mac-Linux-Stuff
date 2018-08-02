@@ -39,7 +39,7 @@ also to
 90 90 90 90 90
 ```
 
-### Mac (not tested/confirmed yet)
+### Mac
 - Items
 ```
 E8 FE A1 28 00
@@ -93,7 +93,7 @@ to
 90 90 90 90 90
 ```
 
-### Mac (not tested/confirmed yet)
+### Mac
 - Items
 ```
 E8 0B 4A CF FF
@@ -111,3 +111,4 @@ to
 # Credits and Thanks
 - Me this time around, since the windows-version Bypasses were of no use
 - Apocalyptech for testing and confirming the Linux-version bypasses
+- mopioid for testing and confirming the Mac-version bypasses
