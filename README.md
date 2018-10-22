@@ -108,7 +108,22 @@ to
 90 90 90 90 90
 ```
 
+## Backpack
+### Linux
+- Not yet available
+
+### Mac
+```
+Go to file-offset: 009DF51A
+Find 
+B9 27 00 00 00 0F
+
+Change the 27 to the hexvalue you want your inventory to be.
+For 100 Inventoryslots use 64 for example.
+```
+
 # Credits and Thanks
 - Me this time around, since the windows-version Bypasses were of no use
 - Apocalyptech for testing and confirming the Linux-version bypasses
 - mopioid for testing and confirming the Mac-version bypasses
+- wufeehd for testing Mac BL2 Backpack-patch
