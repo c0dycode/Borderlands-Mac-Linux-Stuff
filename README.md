@@ -54,6 +54,24 @@ to
 90 90 90 90 90
 ```
 ## Currencies (Not tested/confirmed yet)
+### Linux
+- Cash:
+Address: 01BC886C
+Default: FF E0 F5 05
+
+- Eridium:
+Address: 01BC8870
+Default: F4 01 00 00
+
+- Seraph:
+Address: 01BC8874
+Default: E7 03 00 00
+
+- Torgue:
+Address: 01BC887C
+Default: E7 03 00 00
+
+### Mac
 For the values you need to change it to, refer to this:
 https://github.com/c0dycode/BL2ModStuff/tree/master/Hexediting#increasing-max-eridium
 
@@ -124,6 +142,6 @@ For 100 Inventoryslots use 64 for example.
 
 # Credits and Thanks
 - Me this time around, since the windows-version Bypasses were of no use
-- Apocalyptech for testing and confirming the Linux-version bypasses
+- Apocalyptech for testing and confirming the Linux-version bypasses, double/tripple checking things and Linux Currency offsets
 - mopioid for testing and confirming the Mac-version bypasses
 - wufeehd for testing Mac BL2 Backpack-patch
