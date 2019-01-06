@@ -94,6 +94,20 @@ Default: E7 03 00 00
 Address: 01A1D91C
 Default: E7 03 00 00
 
+## Backpack
+### Linux
+- Not yet available
+
+### Mac
+```
+Go to file-offset: 009DF51A
+Find 
+B9 27 00 00 00 0F
+
+Change the 27 to the hexvalue you want your inventory to be.
+For 100 Inventoryslots use 64 for example.
+```
+
 # TPS
 ## SanityCheck-Bypass
 ### Linux
@@ -132,9 +146,9 @@ to
 
 ### Mac
 ```
-Go to file-offset: 009DF51A
+Go to file-offset: 006B955A
 Find 
-B9 27 00 00 00 0F
+B8 27 00 00 00 0F
 
 Change the 27 to the hexvalue you want your inventory to be.
 For 100 Inventoryslots use 64 for example.
