@@ -146,7 +146,7 @@ to
 
 ### Mac
 ```
-Go to file-offset: 006B955A
+Go to file-offset: 006B855A
 Find 
 B8 27 00 00 00 0F
 
