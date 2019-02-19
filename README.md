@@ -53,7 +53,7 @@ E8 58 A1 28 00
 to
 90 90 90 90 90
 ```
-## Currencies (Not tested/confirmed yet)
+## Currencies
 ### Linux
 - Cash:
 Address: 01BC886C
@@ -71,7 +71,7 @@ Default: E7 03 00 00
 Address: 01BC887C
 Default: E7 03 00 00
 
-### Mac
+### Mac (Not tested/confirmed yet)
 For the values you need to change it to, refer to this:
 https://github.com/c0dycode/BL2ModStuff/tree/master/Hexediting#increasing-max-eridium
 
