@@ -104,6 +104,9 @@ Go to file-offset: 009DF51A
 Find 
 B9 27 00 00 00 0F
 
+For the latest version since the Lilith DLC use this file offset instead:
+01ADFA79
+
 Change the 27 to the hexvalue you want your inventory to be.
 For 100 Inventoryslots use 64 for example.
 ```
