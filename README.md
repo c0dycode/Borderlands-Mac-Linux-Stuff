@@ -40,19 +40,32 @@ also to
 ```
 
 ### Mac
-- Items
+- Items (old gameversion)
 ```
 E8 FE A1 28 00
 to
 90 90 90 90 90
 ```
+-Items (newest gameversion)
+```
+E8 7A 63 36 00
+to
+90 90 90 90 90
+```
 
-- Weapons
+- Weapons (old gameversion)
 ```
 E8 58 A1 28 00
 to
 90 90 90 90 90
 ```
+- Weapons (newest gameversion)
+```
+E8 AA 62 36 00
+to
+90 90 90 90 90
+```
+
 ## Currencies
 ### Linux
 - Cash:
